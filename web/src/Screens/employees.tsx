@@ -38,7 +38,7 @@ const _Employees: React.FC = () => {
               <td>{emp.lastName}</td>
               <td>{emp.email}</td>
               <td>{emp.employmentType}</td>
-              <td>{""}</td>
+              <td>{new Date(emp.joined.toString()).toDateString()}</td>
               <td>
                 <ContextMenu employee={emp} />
               </td>

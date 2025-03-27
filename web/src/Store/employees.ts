@@ -1,6 +1,7 @@
 import { makeAutoObservable } from "mobx";
 import { Employee } from "./types";
 import axios from "axios";
+import { touchRippleClasses } from "@mui/material";
 
 //A class to contain the state managment logic
 export class EmployeeStore {
@@ -20,6 +21,7 @@ export class EmployeeStore {
       .then((r) => {
         console.log(r.data);
         this.employees = r.data as Employee[];
+        console.warn(this.employees);
       })
       .catch((e) => {
         console.error(e);

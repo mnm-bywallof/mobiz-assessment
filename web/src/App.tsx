@@ -7,15 +7,7 @@ import { TopNavBar } from "./Components/Toolbar";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <>Home</>,
-  },
-  {
-    path: "/employee",
     element: <Employees />,
-  },
-  {
-    path: `/employee/:employeeID`,
-    element: <>Employee</>,
   },
 ]);
 
