@@ -63,3 +63,20 @@ npm run start
 
 Upon loading the web application, you should be landing on the employees table just as shown below:
 ![image](https://github.com/user-attachments/assets/beee17b3-7bcf-482f-8aa0-9721769c6813)
+
+You can also click the options on the Employee to Delete or Update the record:
+![image](https://github.com/user-attachments/assets/85d628fb-e580-4b57-a0c3-01be98a351df)
+
+By Clicking on Create New Employee:
+![image](https://github.com/user-attachments/assets/6c2da705-d7d5-4b20-95fe-864c42807d6d)
+
+You will then get presented with the following dialog:
+![image](https://github.com/user-attachments/assets/cd35905d-a6c2-4cbe-adab-6d226393a314)
+
+NB: The update functionality was a bit buggy... might have been something wrong with the logic or on the server.
+
+Thank you so much for the opportunity to present my skillset.
+🙋‍♂️🙋‍♂️🙋‍♂️🙋‍♂️
+
+
+
